@@ -1,9 +1,16 @@
-import { useContext } from "react"
+import { useContext } from 'react';
+import { QuizContext } from '../../context/quiz';
 
-const Option = () => {
-  return (
-    <div>Option</div>
-  )
-}
+import './Option.css';
 
-export default Option
+const Option = ({ option }) => {
+    const [quizState, dispatch] = useContext(QuizContext);
+
+    return (
+        <div className="option">
+            <p>{option}</p>
+        </div>
+    );
+};
+
+export default Option;
