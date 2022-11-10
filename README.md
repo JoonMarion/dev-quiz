@@ -2,4 +2,6 @@
 
 ## Pequeno quiz para programadores, feito em React JS.
 
-Acessível em: https://quizprogramacao.netlify.app/
+Acessível em: 
+
+### `https://dev-js-quiz.netlify.app/`
